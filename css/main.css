@@ -4,7 +4,96 @@
  *
  * Site Styles
  *****************************************************************************/
-
- html {
-     color: green;
+html {
+  padding: 50px;
+}
+body {
+  margin: 0;
+}
+ header {
+   min-height: 400px; 
+   background-image: url('../img/monkaa_title.jpg');
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
  }
+#social {
+ background: lavenderblush;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 50px;
+  transition: 2s width;
+  shape-outside: circle;
+  background-size: contain;
+}
+#social:hover {
+  width: 150px;
+}
+#social ul {
+  list-style-type: none;
+  padding: 10px;
+}
+#social li {
+ margin: 0;
+ padding: 0;
+}
+.main-nav {
+  position: relative;
+  left: 10px;
+  right: 20px;
+  top: 0px;
+  width: 700px;
+  text-align: left;
+}
+.main-nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px;
+}
+html {
+  background-color: lightcoral;
+}
+.weybec-people li {
+  float: left;
+  text-align: center;
+  list-style-type: none;
+display: inline;
+margin: 0px;
+padding: 0px;
+}
+a.download-button {
+  text-decoration: none;
+  color: #fff;
+  background: #FF0000;
+  padding: 8px 10px;
+  boarder-radius: 20px;
+  display: block;
+  width: 150px;
+  margin: 30px;
+  text-align: center;
+  z-index: 100;
+  transition: opacity .8s ease;
+  float
+}
+.images
+{
+display: inline-block;
+float:left;
+margin: 0px;
+padding: 0px;
+}
+ footer {
+   max-height: 100px; 
+   background-image: url('../img/monkey_crystal_tail.jpg');
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+ }
+#about p {
+  width: 800px;
+  margin: 50px;
+  text-align: left;
+  font-family: 'Trebuchet MS';
+  font-size: 25px;
+}
